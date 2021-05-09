@@ -98,5 +98,9 @@ To wherever you're including your .cs files
 
 
 
-
-
+Extensions to get in vscode:
+```
+C#
+C# Extensions
+C# FixFormat
+```
