@@ -1,14 +1,14 @@
-# Adapted from a reddit tutorial by floatingsun
+#### Adapted from a reddit tutorial by floatingsun
 
-Install MonoGame project templates.
+## Install MonoGame project templates.
 
 ```
 dotnet new -i MonoGame.Template.CSharp
 ```
 
-Creating a MonoGame Solution File:
+## Creating a MonoGame Solution File:
 
-Create a folder where you want to store all your MonoGame projects:
+### Create a folder where you want to store all your MonoGame projects:
 
 e.g:
 E:/MonoGameProjects
@@ -18,8 +18,6 @@ NOTE: You can replace all instances of "MonoGameProjects" in this tutorial with 
 
 Inside that folder, create another folder that will hold your MonoGame project:
 
-
-
 e.g.
 
 E:/MonoGameProjects/MyProject
@@ -27,8 +25,7 @@ E:/MonoGameProjects/MyProject
 
 NOTE: You can replace all instances of "MyProject" in this tutorial with anything you like.
 
-In the Command Prompt, navigate inside your project folder and run:
-
+## In the Command Prompt, navigate inside your project folder and run:
 
 ```
 dotnet new sln
@@ -36,15 +33,10 @@ dotnet new mgdesktopgl -o MyProject
 dotnet sln add MyProject/MyProject.csproj
 ```
 
-
-
 This should create a solution file (MyProject.sln) that has a reference to your MonoGame project (MyProject/MyProject.csproj).
 
-Edit MyProject.csproj in a text editor and make it look like the following:
-Important: For "TargetFramework", use 
-"netcoreapp" plus the first two digits of your .NET Core SDK 
-installation (e.g. for 2.2.8, use 2.2.; for 3.0.1, use 3.0).
-
+## Edit MyProject.csproj in a text editor and make it look like the following:
+Important: For "TargetFramework", use  "netcoreapp" plus the first two digits of your .NET Core SDK installation (e.g. for 2.2.8, use 2.2.; for 3.0.1, use 3.0).#
 
 
 ```
@@ -78,5 +70,33 @@ installation (e.g. for 2.2.8, use 2.2.; for 3.0.1, use 3.0).
 
 </Project>
 ```
+### Change:
+
+```
+
+<MonoGamePlatform>DesktopGL</MonoGamePlatform>
+
+```
+
+
+
+To whatever you need.
+
+
+
+### Change: 
+
+```
+
+<SrcFolderReference Include="**\*.cs" />
+
+```
+
+
+
+To wherever you're including your .cs files
+
+
+
 
 
