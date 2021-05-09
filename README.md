@@ -1,6 +1,6 @@
 #### Adapted from a reddit tutorial by floatingsun
 
-## Install MonoGame project templates.
+## Install MonoGame project templates using command line
 
 ```
 dotnet new -i MonoGame.Template.CSharp
