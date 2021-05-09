@@ -1,0 +1,19 @@
+#
+# Sprite sheet data for MonoGame.
+#
+# To learn how to import these sprites into your MonoGame project visit:
+# https://www.codeandweb.com/texturepacker/monogame
+#
+# Sprite sheet: invadersheet.png (184 x 1200)
+# $TexturePacker:SmartUpdate:e11b5f1b80489a046df0e7c8dd3cc140:1176ffa0235cbeb7ffca2fbed152cad8:ffe0068b6a57b869c9458606dbc7be16$
+#
+
+invader2;0;1;134;182;131;182;131;0.5;0.5
+invader3;0;1;267;182;131;182;131;0.5;0.5
+invader4;0;1;400;182;131;182;131;0.5;0.5
+invader5;0;1;533;182;131;182;131;0.5;0.5
+invader6;0;1;666;182;131;182;131;0.5;0.5
+invader7;0;1;799;182;131;182;131;0.5;0.5
+invader8;0;1;932;182;131;182;131;0.5;0.5
+invader9;0;1;1065;182;131;182;131;0.5;0.5
+invader10;0;1;1;182;131;182;131;0.5;0.5
