@@ -95,8 +95,12 @@ To whatever you need.
 
 
 To wherever you're including your .cs files
+```
+<PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.0.1641" />
+<PackageReference Include="MonoGame.Framework.DesktopGL.Core" Version="3.8.0.13" />
+```
 
-
+If NuGet suggests versions of these to build in the command line, you can install them and then edit the version numbers in the lines above.
 
 Extensions to get in vscode:
 ```
